@@ -254,7 +254,7 @@ namespace Dias_de_Vida
             this.txtResultado.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
             this.txtResultado.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtResultado.DefaultFont = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtResultado.DefaultText = "anos...";
+            this.txtResultado.DefaultText = "Dias De Vida...";
             this.txtResultado.Enabled = false;
             this.txtResultado.FillColor = System.Drawing.Color.White;
             this.txtResultado.HideSelection = true;
@@ -264,8 +264,8 @@ namespace Dias_de_Vida
             this.txtResultado.IconRight = null;
             this.txtResultado.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtResultado.Lines = new string[] {
-        "anos..."};
-            this.txtResultado.Location = new System.Drawing.Point(53, 254);
+        "Dias De Vida..."};
+            this.txtResultado.Location = new System.Drawing.Point(55, 255);
             this.txtResultado.MaxLength = 32767;
             this.txtResultado.MinimumSize = new System.Drawing.Size(1, 1);
             this.txtResultado.Modified = false;
@@ -294,21 +294,21 @@ namespace Dias_de_Vida
             this.txtResultado.Padding = new System.Windows.Forms.Padding(3);
             this.txtResultado.PasswordChar = '\0';
             this.txtResultado.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.txtResultado.PlaceholderText = "Wow!";
+            this.txtResultado.PlaceholderText = ".";
             this.txtResultado.ReadOnly = false;
             this.txtResultado.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.txtResultado.SelectedText = "";
             this.txtResultado.SelectionLength = 0;
             this.txtResultado.SelectionStart = 0;
             this.txtResultado.ShortcutsEnabled = true;
-            this.txtResultado.Size = new System.Drawing.Size(159, 40);
+            this.txtResultado.Size = new System.Drawing.Size(172, 40);
             this.txtResultado.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtResultado.TabIndex = 5;
             this.txtResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtResultado.TextMarginBottom = 0;
             this.txtResultado.TextMarginLeft = 3;
             this.txtResultado.TextMarginTop = 0;
-            this.txtResultado.TextPlaceholder = "Wow!";
+            this.txtResultado.TextPlaceholder = ".";
             this.txtResultado.UseSystemPasswordChar = false;
             this.txtResultado.WordWrap = true;
             // 
@@ -326,7 +326,7 @@ namespace Dias_de_Vida
             this.btnDescobrirIdade.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(53)))), ((int)(((byte)(87)))));
             this.btnDescobrirIdade.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDescobrirIdade.BackgroundImage")));
             this.btnDescobrirIdade.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnDescobrirIdade.ButtonText = "Descobrir Idade";
+            this.btnDescobrirIdade.ButtonText = "Calcular Dias";
             this.btnDescobrirIdade.ButtonTextMarginLeft = 0;
             this.btnDescobrirIdade.ColorContrastOnClick = 45;
             this.btnDescobrirIdade.ColorContrastOnHover = 45;

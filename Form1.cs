@@ -30,15 +30,16 @@ namespace Dias_de_Vida
 
         private void btnDescobrirIdade_Click(object sender, EventArgs e)
         {
-            int anasc, ano, calc;
+            int anasc, ano, calc, total;
 
             anasc = Convert.ToInt32(txtAnodeNasc.Text);
             ano = Convert.ToInt32(txtAnoAtual.Text);
 
-            calc =  ano - anasc;
+            calc = ano - anasc;
+            total = calc * 365;
       
 
-            txtResultado.Text = Convert.ToString(calc);
+            txtResultado.Text = (total + " Dias de Vida");
         }
 
         private void btnNovaConsulta_Click(object sender, EventArgs e)
